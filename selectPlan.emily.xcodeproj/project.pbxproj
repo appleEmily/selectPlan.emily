@@ -15,6 +15,7 @@
 		A1BF8ED6234F90C800C4E909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1BF8ED4234F90C800C4E909 /* LaunchScreen.storyboard */; };
 		A1BF8EE1234F90C900C4E909 /* selectPlan_emilyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8EE0234F90C900C4E909 /* selectPlan_emilyTests.swift */; };
 		A1BF8EEC234F90CA00C4E909 /* selectPlan_emilyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8EEB234F90CA00C4E909 /* selectPlan_emilyUITests.swift */; };
+		A1BF8EFA234F96E300C4E909 /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BF8EF9234F96E300C4E909 /* resultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A1BF8EE7234F90CA00C4E909 /* selectPlan.emilyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectPlan.emilyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1BF8EEB234F90CA00C4E909 /* selectPlan_emilyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectPlan_emilyUITests.swift; sourceTree = "<group>"; };
 		A1BF8EED234F90CA00C4E909 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1BF8EF9234F96E300C4E909 /* resultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				A1BF8EC9234F90BD00C4E909 /* AppDelegate.swift */,
 				A1BF8ECB234F90BD00C4E909 /* SceneDelegate.swift */,
 				A1BF8ECD234F90BD00C4E909 /* ViewController.swift */,
+				A1BF8EF9234F96E300C4E909 /* resultViewController.swift */,
 				A1BF8ECF234F90BD00C4E909 /* Main.storyboard */,
 				A1BF8ED2234F90C800C4E909 /* Assets.xcassets */,
 				A1BF8ED4234F90C800C4E909 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				A1BF8ECE234F90BD00C4E909 /* ViewController.swift in Sources */,
 				A1BF8ECA234F90BD00C4E909 /* AppDelegate.swift in Sources */,
 				A1BF8ECC234F90BD00C4E909 /* SceneDelegate.swift in Sources */,
+				A1BF8EFA234F96E300C4E909 /* resultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

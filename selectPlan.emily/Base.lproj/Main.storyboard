@@ -24,7 +24,8 @@
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Tjq-Ca-5Rz" kind="show" id="ezM-fe-g9M"/>
+                                    <action selector="go:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gUV-Ug-LTr"/>
+                                    <segue destination="Tjq-Ca-5Rz" kind="show" identifier="next" id="ezM-fe-g9M"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiE-a9-558">
@@ -118,10 +119,10 @@
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="101.78571428571428"/>
         </scene>
-        <!--View Controller-->
+        <!--Result View Controller-->
         <scene sceneID="AJl-uu-qxK">
             <objects>
-                <viewController id="Tjq-Ca-5Rz" sceneMemberID="viewController">
+                <viewController id="Tjq-Ca-5Rz" customClass="resultViewController" customModule="selectPlan_emily" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="s9C-2g-WLq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -134,6 +135,9 @@
                                 <state key="normal" title="Back">
                                     <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="back:" destination="Tjq-Ca-5Rz" eventType="touchUpInside" id="l84-aw-mOM"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YqE-21-tIX">
                                 <rect key="frame" x="80" y="316" width="254" height="93"/>
@@ -148,6 +152,9 @@
                         <viewLayoutGuide key="safeArea" id="w03-6j-lRs"/>
                     </view>
                     <navigationItem key="navigationItem" id="cDU-qN-QTF"/>
+                    <connections>
+                        <outlet property="label" destination="YqE-21-tIX" id="ma2-dX-ZWZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Wl-Za-lGy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
